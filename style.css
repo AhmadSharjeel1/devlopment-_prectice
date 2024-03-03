@@ -1,0 +1,136 @@
+
+    /*p{
+        color:rgb(137, 234, 18);
+        background-color:;
+    }
+   
+    /*two thing is that one is background and other one is that fore
+    ground 
+    like we have a screen where we right some thing or some image or something 
+    which we can see so this ting is foreground and background is same as back
+    ground*/
+    /* so example of foreground is that text,button,link etc 
+    button
+    {
+        color:blue;
+        background-color:rgb(0,255,0);
+    }
+    
+    /*if we want than we can change complete body background color
+    body{
+       /* background-color:rgb(52, 28, 28);
+       /*its hex form background-color:#ffff00;
+    }
+
+    /*one anather toppic is that color system
+    1.RGB system
+    2.Hex system
+    
+    1. rgb(red,blue,gree)-> we know that all our colors make using these three 
+    colour  like if we add green and red than yellow come,if red and blue add
+    than come pink,if we add green blue and red than white color come 
+    example when we set colorf property than first we right rgb and after that
+    we take the quantity unit wise here quantity is start from 0-255 
+    both three color quantity we can set so we right rgb(199,255,34)
+    if i right "0" than its mean its quantity is zero and if i right "255"
+    than its mean its on his high quantity example is rgb(0,255,0) its green
+    color becouse here r is zero and b is zero and g is 255 so 
+    
+    rgb value we dont remember for this we can take hlep to color picker 
+    
+    2.Hex system-> its also help yo set rgb values but we can say its a small way to right
+    rgb values here 0 to 15 total 16 digit persent here (0 to 9 than A TO f). here the 
+    is between 00-ff for red,green and blue 
+    here all is same but diffrent way to wite like wich number come afetr 
+    9 we right this number in the form of a,b,c,d,e,f
+    in rgb if i want green range than i right 0-255 but here the range 
+    is 00-ff
+    if i right ff0000 its meen its red color 
+    00ff00 its mean its green 
+    0000ff its mean its blue  
+    when we right hex number thant in starting we use "#"if we dont right 
+    than colour not work here. we dont remeber to learn this value we cant take 
+    help colour picker were rgb and hex both values persent 
+    */
+
+
+
+    /* selectors
+    1. universal selector
+         *{}
+         its used for all like if i remove all styling from here AND 
+    */     
+
+    *{
+        color:blue;
+    }
+    /* due for universal selector here all thing is pink 
+    
+    2. element selector -> we heave used element selctor in upper code
+    here its used for a perticuler thing not for all things 
+    */
+    p{
+        color:green;
+        
+    }
+    /*css work upper to lower styling like first you apply universal 
+    selector than due to universal selector its change all blue 
+    and go next line now see that paragrapg color is green with the help of 
+    element selector so its change the paragraph in green color*/
+
+    /*so we can say 
+    that which is right in last its priority is high*/
+
+    button
+    {
+        color:brown;
+        
+    }
+    h1{
+        color:green;
+    }
+    /*in element selector if i have created 3 paragraph than green color apply all
+    3 paragraph same as if heading is h than all h is same color which we have define here 
+
+
+    3. id selector -> in css multiple element persent than we can give id for
+    multiple element  mean we can give a specific id(we can understand id like a name)
+    mean any type of uniqyue name like "<h1 id="head1">this is first heading</h1>"
+    */
+    #head2
+    {
+        color:black;
+    }
+    #head3
+    {
+        color:red;
+    }
+    #head4
+    {
+        color:yellow;
+    }
+
+    #head1
+    {
+        color:rgb(255,0,255);
+    }
+    /*here head2,head3,head4 is id that i have assign multiple head this cosde 
+    is written in html file 
+    and if we want than multiple element assign same id but its a bad programmer 
+    technique */
+
+    /*if we want that multiple element same properti than we use 
+    4. class selector -> here multiple element we can add same class than we 
+    apply here its properties 
+    <p class="myclass">hello my name is ahmad sharjeel</p>
+    <button class="myclass">click me!</button>
+    here we defined paragraph and button in one class name is my class 
+     */
+    .my_class{
+        color :orange;
+    }
+    .myclass{
+        color:mediumaquamarine;
+    }
+    /* so here we can se that we write class name with dote and under this 
+    write its properties */

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Rajistration Form</h1>
+    <form action="/action.php"><!-- here give some type of constraint that what type of user name and what type of pasword 
+    which type of words we can right here -->
+    <input type="text" placeholder="username">
+    <!--here we can right any thing like name etc and we are using placeholder
+    here to proint username like that on texting screen -->
+    <br>
+    <hr/>
+    <input type="password" placeholder="password">
+    <!--here we take a password becouse its dont see here
+    and if we right text than its see -->
+    <hr/>
+    <h3>select your class</h3>
+    <br>
+<label for="101">
+    <input type="radio" value="class XI" name="class" id="101">class XI
+</label>
+<hr/>
+<label for="102">
+    <input type="radio" value="class XII" name="class" id="102">class XII
+</label>
+<hr/>    
+    <!--its redio button
+    when we choose any redio button like we choose 11 class
+    than backend know about this that you choose 11 thant 
+    the value class XI go from backend so we right this here 
+    so which we right in value its go to the backend and which
+    we right on name its show on screen -->
+
+    <!--here on other thing is lable that used if we put this 
+    radio button under this lable and now if we click on 
+    taxt that which right near redio button like classXI than 
+    its also tike 
+    but other side if dont use this then now if we click on the 
+    than its not select we click under the circul its use becouse
+    some people eye side is weak so ts help them in this  -->
+ 
+    <!-- checkbox is that that is ude to select multiple thing 
+    we want to select than we use this becouse redio button we cant use 
+    becouse in redio at a time we can use only one option-->
+    <h3>select your subject</h3>
+    <br>
+    <lable for="math">
+        <input type="checkbox"value="math" name="subject"id="101">math
+    </lable>
+    <br>
+    <lable for="phy">
+        <input type="checkbox"value="phy" name="subject"id="102">phy
+    </lable>
+    <br>
+    <lable for="chem">
+        <input type="checkbox"value="chem" name="subject"id="103">chem
+    </lable>
+    <br>
+    <lable for="bio">
+        <input type="checkbox"value="bio" name="subject"id="104">bio
+    </lable>
+    <br>
+    <lable for="eng">
+        <input type="checkbox"value="eng" name="subject"id="105">eng
+    </lable>
+    <br>
+  
+
+    <!--select is that like we select our city or which one our state we want to select here we use 
+    drop down for this we use select tag here -->
+    <br>
+    <hr>
+    <P>Select your city</P>
+    
+
+    <select name="city">
+        <option value="delhi">delhi</option>
+        <option value="mumbai">mumbai</option>
+        <option value="kalkata">kalkata</option>
+        <option value="pune">pune</option>
+        <option value="bengluru">bengluru</option>
+        <option value="haridwar">haridwar</option>
+        <option value="manglour">manglour</option>
+        <option value="roorkee">roorkee</option>
+    </select>
+    <hr>
+      <!--here we have used id to tell backend that this id no subject we have 
+    select here-->
+
+    <!--text are where we can right like feedback or short summery about
+    yourself -->
+    <textarea name="feedback"id="101"placeholder="feedback" rows="10" ></textarea>
+
+
+    <!--now we create submit button that will submit this and this all information save on backend -->
+    <br>
+
+    <input type="submit" value="submit">
+</form>
+
+<!-- iframe tag its like a ankor tag in which we show  website link in webside here we have so
+urse attribute persent where we fill a link in this  -->
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HcOc7P5BMi4?si=Zy78gqC8pN6FeqPi"
+ title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+ encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+ <!--so after doing this perticuler link video show here and we can play this on our webside 
+but its do only for some webside all webside not follow them -->
+<br>
+<iframe src="https://www.wikipedia.org/"width="560" height="315"></iframe>
+<br>
+<!--we also see some type of videos on our weside with the help of video tag -->
+<video src="/vedio.mp4"width="600" height="150"controls autoplay >my video</video>
+<video src="/background.mp4"width="600" height="150"controls loop>my video</video>
+
+</body>
+</html>

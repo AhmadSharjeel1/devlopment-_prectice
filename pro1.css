@@ -1,0 +1,56 @@
+#box
+{
+    color:green;
+    background-color: brown;
+    text-align:left;
+    line-height: 25px;
+}
+h1,h2,h3{
+    color:aqua;
+    text-align:center;
+    
+    /* we can allign this using left right and center and by 
+    default its left and alignment change with according to its 
+    perents*/
+    /* and courently we are using css3 and here two more options
+    also add start and end 
+    if i right hindi , english then left mean start and right mean
+    end but if we are righting urdu than its apposite becoue 
+    we right urdu in rong side  here left mean end and right mean start */
+    
+}
+button{
+    background-color:green;
+    color:red;
+    font-size: 100px;
+    
+}
+h1{
+    text-decoration:green dotted underline;
+    font-weight: normal;
+    font-size: 50px;
+    text-transform: capitalize;
+    
+}
+h2{
+    text-decoration: wavy overline;
+    font-weight: bold;
+    font-size: 25px;
+    text-transform: lowercase;
+}
+h3{
+    text-decoration: line-through;
+    font-size: 10px;
+    font-weight: 100;
+    /*normal,bold,bolder,lighter
+    font size=100-900
+    lighter 100   boldest=900   bold=400
+    here we can right digit or word both*/
+    text-transform: uppercase;
+}
+a{
+    text-decoration: none;
+    
+    /* so here in link by default undeline come if we want to change this than we 
+    can change and if we want to delet this line than we right none */
+}
